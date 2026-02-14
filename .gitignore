@@ -2,32 +2,20 @@
 node_modules/
 
 # Logs
+logs
+*.log
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-# Newman reports (generated files)
-reports/
-*.html
-*.json
-
-# Environment variable files (if sensitive in future)
-.env
 
 # OS files
 .DS_Store
 Thumbs.db
 
-# IDE files
-.vscode/
-.idea/
+# Environment variables (if any)
+.env
 
-# Coverage folders (if added later)
+# Newman reports (optional)
+newman/
+
+# Coverage (if added later)
 coverage/
 
-# Temporary files
-*.tmp
-*.swp
-
-# Optional: package-lock (keep if you want reproducible builds)
-# package-lock.json
