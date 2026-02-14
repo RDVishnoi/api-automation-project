@@ -25,3 +25,4 @@ jobs:
         run: |
           newman run User_API.postman_collection.json \
           -e qa.postman_environment.json
+
